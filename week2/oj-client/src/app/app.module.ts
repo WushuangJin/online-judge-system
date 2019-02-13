@@ -11,6 +11,8 @@ import {DataService} from './services/data.service';
 import { ProblemDetailComponent } from './components/problem-detail/problem-detail.component';
 
 import { routing } from './app.routes';
+import { NewProblemComponent } from './components/new-problem/new-problem.component';
+import { NavbarComponent } from './components/navbar/navbar.component';
 
 
 
@@ -18,7 +20,9 @@ import { routing } from './app.routes';
   declarations: [
     AppComponent,
     ProblemListComponent,
-    ProblemDetailComponent
+    ProblemDetailComponent,
+    NewProblemComponent,
+    NavbarComponent
   ],
   imports: [
     BrowserModule,
